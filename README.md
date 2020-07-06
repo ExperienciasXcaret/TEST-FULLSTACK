@@ -12,7 +12,7 @@
 #
 ###### ***Requerido*
 #
-- Desarrollado utilizando Fastify.js preferiblemente o Express.js como alternativa que se conecte a un motor de Base de Datos (MongoDB/MySQL) para manejo de CRUD del carrito y la lectura de los productos.  
+- Desarrollado utilizando Fastify.js preferiblemente o Express.js como alternativa que se conecte a un motor de Base de Datos (MongoDB, se incluye en el repo el csv y json con los datos que deberan importar en la base de datos) para manejo de CRUD del carrito y la lectura de los productos.  
 
  - Debe validar mediante el uso de interfaces de TypeScript la estructura de los objetos que recibe y envía. 
 
