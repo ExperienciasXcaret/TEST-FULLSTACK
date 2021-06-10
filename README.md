@@ -12,13 +12,31 @@
 #
 ###### ***Requerido*
 #
-- Desarrollado utilizando Fastify.js preferiblemente o Express.js como alternativa que se conecte a un motor de Base de Datos (MongoDB, se incluye en el repo el csv y json con los datos que deberan importar en la base de datos) para manejo de CRUD del carrito y la lectura de los productos.  
+- Desarrollado utilizando Fastify.js(https://www.fastify.io/), con conexion al motor de Base de Datos MongoDB(se incluye en el repo el csv y json con los datos que deberan importar en la base de datos) para manejo de CRUD del carrito y la lectura de los productos.  
 
  - Debe validar mediante el uso de interfaces de TypeScript la estructura de los objetos que recibe y envía. 
 
-++ Deseables (Opcionales) 
+ - Implementación de AJV para validar datos (Ejemplo un número máximo de Pax) y Helmet para seguridad (Ejemplo simular cabecera para ocultar información).
 
- - Implementación de AJV para validar datos (Ejemplo un número máximo de Pax) y Helmet para seguridad (Ejemplo simular cabecera para ocultar información). 
+ - Debe agregar por lo menos dos test unitarios 
+ 
+ - Todo el desarrollo del backend, debe ser con TypeScript
+
+##### Entrega
+
+- Todo el desarrollo de backend debe subirse a una plataforma como Heroku o firebase 
+
+- Para la bese de datos debera subirse a mongo atlas, debera permitir el ingreso a cualquier IP a modo de prueba (en la practica esto no debe ser asi, solo es por mativos de revisión del test)
+
+- Repositorio en GitHub con las instrucciones de como ejecutarlo y la documentación que considere necesaria. 
+
+- Generales:  
+
+    - Limpieza (Indentación, comentarios) 
+
+    - Simplicidad (Hacer más con menos código) 
+
+    - Detalle 
 
 ##### FrontEnd 
 
@@ -69,13 +87,14 @@
 - Uso de React Hooks en componentes. 
 
 - Uso de Tailwind para interfaz responsiva mobile y desktop 
-#
-++ Deseables (Opcionales) 
-- Unit Test de componentes con Jest y Enzyme 
+
+- Por lo menos 5 Test unitarios de componentes con Jest y Enzyme 
 
 #
 #
 #### Entrega 
+
+- El proyecto lo debera subir a alguna plataforma como github pages o heroku
 
 - Repositorio en GitHub con las instrucciones de como ejecutarlo y la documentación que considere necesaria. 
 
