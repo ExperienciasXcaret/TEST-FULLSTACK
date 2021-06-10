@@ -26,7 +26,7 @@
 
 - Todo el desarrollo de backend debe subirse a una plataforma como Heroku o firebase 
 
-- Para la bese de datos debera subirse a mongo atlas, debera permitir el ingreso a cualquier IP a modo de prueba (en la practica esto no debe ser asi, solo es por mativos de revisión del test)
+- Para la base de datos debera subirse a mongo atlas, debera permitir el ingreso a cualquier IP a modo de prueba (en la practica esto no debe ser asi, solo es por mativos de revisión del test)
 
 - Repositorio en GitHub con las instrucciones de como ejecutarlo y la documentación que considere necesaria. 
 
