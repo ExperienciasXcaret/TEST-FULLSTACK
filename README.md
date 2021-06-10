@@ -16,7 +16,7 @@
 
  - Debe validar mediante el uso de interfaces de TypeScript la estructura de los objetos que recibe y envía. 
 
- - Implementación de AJV para validar datos (Ejemplo un número máximo de Pax) y Helmet para seguridad (Ejemplo simular cabecera para ocultar información).
+ - Implementación de AJV para validar datos (Ejemplo un número máximo de productos) y Helmet para seguridad (Ejemplo simular cabecera para ocultar información).
 
  - Debe agregar por lo menos dos test unitarios 
  
