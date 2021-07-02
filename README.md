@@ -71,21 +71,7 @@
 
     - Debe mostrar el desglose de precios y el total por el carrito de compra. 
 
-    - Si no tiene modelos el producto no mostrar selector de modelo. 
-
-    - Debe tener un formulario para capturar el nombre de la persona y este se debe guardar en el Store de Redux para mostrarlo posteriormente en el agradecimiento (Campo obligatorio). 
-
-    - Contar con un botón de confirmar compra que marcará los productos con un estatus de comprado y enviará a la página de agradecimiento. 
-
-    - En caso de que el carrito esté vacío mostrar un mensaje de carrito vacío, ocultar el botón de confirmar y tener una liga al cotizador. 
-
-- Página de agradecimiento: Que despliegue un mensaje de agradecimiento y un resumen de la compra de la persona. 
-
-    - Desplegar en el agradecimiento el nombre del cliente almacenado en Redux Store. 
-
-    - Desplegar una tabla con los productos comprado. 
-
-    - Contar con un botón de realizar nueva compra. 
+    - Si no tiene modelos el producto no mostrar selector de modelo.
 
 ###### ***Requerido* 
 
