@@ -3,7 +3,20 @@
 
 #
 ### Proyecto
-##### Carrito de compras de Vehículos simple que lee una lista de productos (No la modifica) y ofrece un selector de productos, un carrito con las compras para hacer modificaciones y una pantalla de agradecimiento con un desglose lo comprado. 
+##### Se requiere desarrollar un sitio de ecommerce que permita la compra de automóviles con los siguientes requerimientos:
+
+- Los productos se deben consultar desde las apis desarrollados en el backend.
+- El sitio debe permitir la selección de un modelo del producto, color.
+- El precio del automóvil varía dependiendo el modelo.
+- Se debe poder ingresar el monto del enganche del auto y las cuotas (de 12 hasta 60 meses).
+- Se debe poder comprar el auto.
+  - Se debe mostrar el resumen de la compra, modelo, color, precio.
+  - Se debe dar clic en pagar y cargar el formulario de pagos.
+  - ingresar una tarjeta con 16 dígitos. 
+  - ingresar un cvv con 3 dígitos.
+  - ingresar una fecha validar (si la fecha ya paso envía error en endpoint).
+  - Se debe validar la tarjeta en el endpoint.
+  - Si todo es correcto, se guarda la venta y se envía a la thank you page.
 
 #
 ##### BackEnd 
@@ -55,23 +68,16 @@
 
 -   En cualquier página de la aplicación permitir cambiar la moneda desplegada. Se ofrecen dos monedas para los productos Pesos Mexicanos y dólares. 
 
--   La moneda actual debe contenerse en el Redux Store con un default de pesos. 
+-   La moneda actual debe contenerse en el Redux Store con un default de pesos.
 
-###### - Páginas 
-
- - Cotizador: Que desglose los productos disponibles y permita seleccionar el que quiera comprar la persona. 
-
-    - Al cargar la página generar un identificador de carrito y almacenarlo en Redux Store. Queda a criterio de la persona como generará este identificador. 
-
-    - Agregar el producto con un estatus de reservado y comunicar al usuario que su producto se agregó. 
+###### - Consideraciones 
 
     - No permitir agregar dos veces el mismo producto (comunicar al usuario que el producto ya lo tiene en su carrito). 
-
-- Carrito de compra: Que despliegue los productos actualmente reservados para el identificador de carrito y permita modificar la cantidad y modelo en caso de aplicar de cada producto así como eliminar productos. 
 
     - Debe mostrar el desglose de precios y el total por el carrito de compra. 
 
     - Si no tiene modelos el producto no mostrar selector de modelo.
+  
 
 ###### ***Requerido* 
 
@@ -101,3 +107,4 @@
 
 ###### ***Opcional*
 - El proyecto lo debera subir a alguna plataforma como github pages o heroku
+- Imprimir la cotización del auto, con el modelo, color, precio, enganche y mensualidades (segun los meses seleccionados) y permitir la impresión del mismo.
